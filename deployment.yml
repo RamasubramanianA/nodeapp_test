@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: nodeserver
-        image: thetips4you/nodeapp:latest
+        image: ramgopi/firstnodejs:latest
         ports:
-        - containerPort: 3000
+        - containerPort: 4000
